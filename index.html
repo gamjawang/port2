@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Gamja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <button class="waffle-btn" onclick="toggleMenu()" aria-label="메뉴">
+        <i class="ri-more-2-fill"></i>
+      </button>
+
+      <div id="menuBar" class="menu-bar">
+        <a class="menu-item" onclick="openMinesweeper()">지뢰찾기</a>
+        <a class="menu-item" onclick="openSnake()">뱀 게임</a>
+        <a onclick="openFinger()" class="menu-item">손가락운동</a>
+        <a onclick="showResults('포트폴리오')" class="menu-item">포트폴리오</a>
+        <a onclick="showResults('팀소개')" class="menu-item">팀 소개</a>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <a href="index.html">
+        <div class="logo">
+          <span>G</span><span>a</span><span>m</span><span>j</span><span>a</span>
+        </div>
+      </a>
+      <form id="searchForm">
+        <i class="ri-search-line search-icon"></i>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-box"
+          autofocus
+          autocomplete="off"
+        />
+      </form>
+    </div>
+    <div id="searchResults" class="results-container"></div>
+    <script href="script.js" src="script.js"></script>
+  </body>
+</html>
