@@ -103,21 +103,21 @@ const searchData = {
         },
 
         {   
-            url:"https://blog.naver.com/true_playground",
-            site: "https://github.com/gamjawang · 지뢰찾기 제작 과정",
+            url:"https://blog.naver.com/true_playground/224307732449",
+            site: "https://blog.naver.com/true_playground/224307732449 · 지뢰찾기 제작 과정",
             title: "지뢰찾기 제작과정",
             snippet: "마지막으로 지뢰찾기 한게 언제더라."
         },
         {   
-            url:"https://blog.naver.com/true_playground",
-            site: "https://github.com/gamjawang · 뱀 게임 제작 과정",
+            url:"https://blog.naver.com/true_playground/224307759370",
+            site: "https://blog.naver.com/true_playground/224307759370 · 뱀 게임 제작 과정",
             title: "뱀 게임 제작과정",
             snippet: "밤에 피리불면 뱀 나온다던데... 헉!"
         },
 
         {   
-            url:"https://blog.naver.com/true_playground",
-            site: "https://github.com/gamjawang · 손가락 운동 제작 과정",
+            url:"https://blog.naver.com/true_playground/224307845309",
+            site: "https://blog.naver.com/true_playground/224307845309 · 손가락 운동 제작 과정",
             title: "손가락 운동 제작과정",
             snippet: "진짜 손가락 운동이 되는지는 미지수."
         }
