@@ -26,7 +26,6 @@ searchInput.addEventListener('keydown', function(event) {
         if (value === '포트폴리오' || value === '팀소개') {
             showResults(value);
         }
-        searchInput.value = '';
     }
 });
 
@@ -185,7 +184,6 @@ function teamPage(type) {
     searchResults.innerHTML = cardHTML;
 }
 
-// 검색 결과를 화면에 뿌려주는 SPA 핵심 함수
 function showResults(type) {
     const mainContainer = document.querySelector('.main-container');
     const searchResults = document.getElementById('searchResults');
